@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/firstLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow_100"
+            android:layout_weight="1"
+            android:text="Back" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green_100"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_100"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnFour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aquamarine_100"
+            android:layout_weight="1"
+            android:text="7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnFive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red_100"
+            android:layout_weight="1"
+            android:text="9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnSix"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow_200"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnSeven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green_200"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnEight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_200"
+            android:layout_weight="1"
+            android:text="6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnNine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aquamarine_200"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/linearBtnTen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red_200"
+            android:layout_weight="1"
+            android:text="10" />
+
+    </LinearLayout>
+
+</LinearLayout>

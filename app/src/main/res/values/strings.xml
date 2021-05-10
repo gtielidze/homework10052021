@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">homework10052021</string>
+    <string name="back">back</string>
+    <string name="load_linear">load Linear</string>
+    <string name="load_constraint">load Constraint</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loadConstraint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green_100"
+        app:layout_constraintBottom_toTopOf="@+id/loadLinear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/load_constraint"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loadLinear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/load_linear"
+        app:layout_constraintTop_toBottomOf="@id/loadConstraint" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
